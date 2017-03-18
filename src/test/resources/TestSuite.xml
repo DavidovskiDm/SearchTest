@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1" >
+    <!-- Параметр для ВСЕХ тестов в сьюьте -->
+    <parameter name="text" value="Работа"/>
+    <parameter name="textSearch" value="Специалист по тестированию"/>
+     <test name="Test Work">
+        <!-- Параметр для ДАННОГО теста -->
+        <classes>
+            <class name="Test.SearchTest"/>
+        </classes>
+    </test>
+
+</suite>
